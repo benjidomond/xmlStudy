@@ -1,0 +1,58 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<friendsList>
+    <friend>
+        <name>Alex</name>
+    </friend>
+    <friend>
+        <name>Mary</name>
+    </friend>
+    <friend>
+        <name>Rachel</name>
+    </friend>
+    <bestFriend>
+        <name>Ana</name>
+    </bestFriend>
+</friendsList>
+
+<!-- Root element.
+Every XML MUST contain a root element that is parent of all elements
+<friendsList> is the root!
+
+XML Prolog: is optional and is the first line
+Starts and ends with ?
+In our XML, we can also use international characters so it's good practice to provide the encoding being used
+
+On XML prologs, note that you'll receive a "processing instruction target matching is not allowed" issue
+if the XML prolog is not at the VERY top of your documents. Even if comments are above the XML prolog, the error will fire.
+
+Default encoding format is UTF-8
+All XML elements must have a closing tag
+
+XML tags are case sensitive
+-->
+
+<!-- XML is used to store and transport data between two apps in a manner that's
+platform and tech stack agnostic. XML stands for extensible markup language
+and is written using tags <> or marks.
+XML does not use predefined tags like HTML and can be extended.
+XML is also both human and machine readable (like JSON) and a W3C recommendation
+W3C (World Wide Web Consortium)
+
+XML validation
+Validation all the syntax and structure of our XML messages
+    Does it satisfy all the basic syntax conditions?
+    Does it behave according to a predefined DTD (Document type definition) or XSD (XML Schema Definition?)
+        In most cases, the creator of these schemas will provide them to you and you'll have to check your XML against it
+        Schema will contain various info such as what's mandatory or not, what data type should be inside the text, XML structure / how to structure it, what should be the text, etc.
+
+XML Schemas (cont'd)
+    Grammar and content check is done here
+    Most of the cases today XSD is used, in case you don't have a xst or dtd or any schema - you can take your own XML and
+    generate a schema out of it
+
+Look online for an XML schema generator or an XML to XSD converter / XML to DTD converter
+Converted XSD shows your element names and shows the elements that have other elements inside them as complex types
+It even shows the name as of type string!
+
+XML is a markup language that defines a set of rules for encoding documents in a format that is both human readable and machine readable
+ -->
